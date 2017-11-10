@@ -1,15 +1,18 @@
 bootdo:
-  uploadPath: D:/var/uploaded_files/
+  #uploadPath: /home/images/xinxinBack/
+  uploadPath: D:/images/xinxinBack/
 logging:
   level:
     com.bootdo: debug
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
+    
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/bootdo?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://39.108.93.150:3306/bootdo?useUnicode=true&characterEncoding=utf8
     username: root
-    password: 123456
+    password: uAiqwVwjJ8-ii
+    
     initialSize: 1
     minIdle: 3
     maxActive: 20
